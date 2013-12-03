@@ -1,0 +1,157 @@
+/* Header Rules*/
+
+header h1 { 
+    color: #E64848;
+    font-size: 55px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:500;
+        }
+
+header a:link{
+       text-decoration:none;
+}
+
+header a:visited {
+    color:#E64848;
+}
+   
+/* Navigation Rules */
+nav {
+    font-size: 20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color: #E64848;
+    height: 48px;
+    text-align: center;
+        }
+
+nav a{
+    margin: 15px;
+            }
+
+nav a:link {
+    color: #FFFFFF;
+    text-decoration:none;
+    }
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight:800;
+}
+
+nav a:visited {
+    color: #FFFFFF;
+}
+
+/* Article Rules*/
+
+h1{ 
+    color: #E64848;
+    font-size: 30px;
+  }
+
+h2 {
+    Color: #E64848;
+    text-decoration:italicize;
+    }
+
+p {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 20px;
+    }
+
+p a:link{
+    text-decoration:none;
+    color: #E64848;
+}
+
+p a:hover{
+    text-decoration:underline;
+}
+
+p a:visited{
+    color:#E64848;
+}
+
+ul {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+ul a:link{
+    color:#E64848;
+    text-decoration:none;
+}
+
+ul a:hover{
+    text-decoration:underline;
+}
+
+ul a:visited{
+    color:#E64848;
+    text-decoration: none
+}
+
+img { 
+    margin-top: 30px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto
+    }
+    
+
+span a:link{
+    color:#E64848;
+}
+
+/*
+
+
+#blogtext{
+    float:right;
+    width: 190px 85%;
+    margin: 60px 100px 50px 40px;
+    overflow:hidden 
+}
+
+#fanaticfashions{
+    float:left;
+    margin: 10px 30% 10px 15%;
+    overflow:hidden;
+    width: 50%;
+} */
+
+
+/*Footer Rules*/
+
+footer {
+    background-color: #E64848;
+    height:20px;
+    color: #E64848;
+    font-size: 15px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    clear:both
+       }
+
+footer a{
+    margin: 15px;
+    font-size: 20px;
+    }
+
+footer a:link {
+    color: #E64848;
+    text-decoration:none
+    }
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight:800;
+}
+
+footer a:visited {
+    color:#FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+}
